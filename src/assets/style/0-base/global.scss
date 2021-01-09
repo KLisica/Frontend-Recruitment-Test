@@ -11,6 +11,11 @@ body {
   line-height: 1.55;
   letter-spacing: 0.25px;
 
+  * {
+    font-family: $roboto;
+    box-sizing: border-box;
+  }
+
   @media only screen and (max-width: 991px) {
     font-size: 15px;
   }
@@ -40,6 +45,10 @@ body {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 .page-cont {

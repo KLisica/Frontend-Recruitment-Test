@@ -3,6 +3,10 @@
   flex-wrap: wrap;
   width: 100%;
 
+  &.justify-center {
+    justify-content: center;
+  }
+
   .col-6 {
     flex: 0 0 auto;
     width: 50%;

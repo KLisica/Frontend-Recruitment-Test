@@ -1,0 +1,49 @@
+.contact-form {
+  display: block;
+  box-shadow: $shadowSoft;
+  background: $light;
+  border-radius: 4px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px 50px;
+  text-align: left;
+
+  @media only screen and (max-width: 575px) {
+    padding: 30px;
+  }
+
+  .group {
+    display: block;
+    margin: 0 0 25px;
+  }
+
+  label {
+    display: block;
+    margin: 0 0 5px;
+    font-size: 14px;
+    font-weight: $medium;
+    color: $dark;
+    opacity: .9;
+  }
+
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 15px;
+    outline: none !important;
+    transition: 0.275s;
+
+    &:focus,
+    &:active {
+      border-color: $primary;
+    }
+
+    &.is-invalid {
+      border-color: $danger;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.success-message {
+    display: block;
+    background: $successL;
+    color: $success;
+    border-radius: 4px;
+    padding: 10px 0 10px 15px;
+    margin: 0 0 20px;
+    font-size: 14px;
+
+    span {
+      float: right;
+      cursor: pointer;
+      font-size: 19px;
+      margin-top: -4px;
+      margin-right: 5px;
+      background: transparent;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 50%;
+      user-select: none;
+      transition: 0.275s;
+
+      &:hover {
+        background: rgba(0,0,0, 0.05);
+      }
+    }
+}
