@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header-component />
+    <base-header />
 
     <transition
       name="fade"
@@ -10,14 +10,3 @@
     </transition>
   </div>
 </template>
-
-<script>
-import HeaderComponent from './components/Header'
-
-export default {
-  name: 'App',
-  components: {
-    HeaderComponent,
-  },
-}
-</script>

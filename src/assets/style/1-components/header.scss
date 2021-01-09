@@ -1,10 +1,12 @@
 header {
   display: block;
   background: $primaryD;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05),
-  0 5px 15px rgba(0,0,0,0.1),
-  0 5px 15px rgba(0,0,0,0.12),
-  0 5px 15px rgba(0,0,0,0.15);
+  box-shadow: $shadowStrong;
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  left: 0;
+  width: 100%;
 
   * {
     color: $light

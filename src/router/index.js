@@ -23,6 +23,11 @@ const routes = [
 // Initializing router with available routes.
 const router = new VueRouter({
   mode: 'history',
+  scrollBehavior() {
+    setTimeout(() => {
+      return { x: 0, y: 0 }
+    }, 275) // 275 ms is time used for page change animation
+  },
   routes,
 })
 
