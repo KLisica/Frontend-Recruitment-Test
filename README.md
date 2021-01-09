@@ -2,7 +2,7 @@
 
 A responsive two page Vue.js app built with Webpack.
 
-**Note:** Before using the contact form be sure to setup and run [API application](https://github.com/KLisica/-Frontend-Recruitment-Test-API.git).
+**Note:** Before using the contact form be sure to setup and run [API application](https://github.com/KLisica/Frontend-Recruitment-Test-API.git).
 
 ### Local Setup
 
